@@ -1,4 +1,5 @@
 # rails-docker-tmics
-Rails Docker tmics
+Rails Docker by tmics
+
 
 
