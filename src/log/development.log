@@ -48,3 +48,14 @@ Entrypoint application = js/application-7f041c57215f4c597b08.js js/application-7
 Completed 200 OK in 8996ms (Views: 8965.0ms | ActiveRecord: 0.0ms | Allocations: 18729)
 
 
+Started GET "/" for 172.22.0.1 at 2022-07-09 03:06:00 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 326)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 85.0ms | Allocations: 5909)
+Completed 200 OK in 153ms (Views: 109.5ms | ActiveRecord: 0.0ms | Allocations: 9498)
+
+
