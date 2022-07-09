@@ -59,3 +59,14 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 153ms (Views: 109.5ms | ActiveRecord: 0.0ms | Allocations: 9498)
 
 
+Started GET "/" for 172.23.0.1 at 2022-07-09 04:52:27 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.1ms | Allocations: 5790)
+Completed 200 OK in 118ms (Views: 99.6ms | ActiveRecord: 0.0ms | Allocations: 8408)
+
+
